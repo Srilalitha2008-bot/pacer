@@ -1,20 +1,16 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Pacer
 
-# Run and deploy your AI Studio app
+**An AI-powered deadline execution tool that re-paces your plan the moment you fall behind.**
 
-This contains everything you need to run your app locally.
+Built for the Vibe2Ship Hackathon — Problem Statement: *The Last-Minute Life Saver*
 
-View your app in AI Studio: https://ai.studio/apps/12dd90af-4f06-4f66-9278-4026c2aa5989
+## Overview
 
-## Run Locally
+Most productivity tools rely on passive reminders that are easy to ignore. Pacer goes further — it breaks every deadline into a day-by-day execution plan, tells you exactly what matters most today, and automatically re-plans your remaining schedule the instant you fall behind. No manual reorganizing required.
 
-**Prerequisites:**  Node.js
+## Key Features
 
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+- **AI-generated execution plans** — Pacer breaks each task into a day-by-day plan, working backward from the deadline
+- **Today view** — surfaces the single most urgent task each day, with a short AI-generated reason
+- **Auto-repace engine** — when a task is marked as slipped/skipped, Gemini instantly regenerates the remaining schedule to still hit the deadline, or flags if it's now at risk
+- **Risk-aware color system** — task urgency col
